@@ -1,4 +1,4 @@
-simple-calendar
+A simple calendar
 ===============
 
 A simple PHP calendar
