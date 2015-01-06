@@ -2,7 +2,7 @@
 /* Set the default timezone */
 date_default_timezone_set("America/Montreal");
 
-/* Set the date you need */
+/* Set the date */
 $date = strtotime("2015-01-06");
 
 $day = date('d', $date);
@@ -13,7 +13,7 @@ $title = strftime('%B', $firstDay);
 $dayOfWeek = date('D', $firstDay);
 $daysInMonth = cal_days_in_month(0, $month, $year);
 
-/* Get the name of the days */
+/* Get the name of the week days */
 $timestamp = strtotime('next Sunday');
 $weekDays = array();
 for ($i = 0; $i < 7; $i++) {
