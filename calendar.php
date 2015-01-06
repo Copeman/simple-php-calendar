@@ -22,7 +22,7 @@ for ($i = 0; $i < 7; $i++) {
 }
 $blank = date('w', strtotime("{$year}-{$month}-01"));
 ?>
-<table class='table table-bordered' style="table-layout: fixed;">
+<table style="table-layout: fixed;">
 	<tr>
 		<th colspan="7" class="text-center"> <?php echo $title ?> <?php echo $year ?> </th>
 	</tr>
